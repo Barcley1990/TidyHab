@@ -1,0 +1,47 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+secrets.yaml
+
+# Node.js / frontend builds
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.output/
+coverage/
+.turbo/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python tooling and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime logs and persistent local data
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.data/
