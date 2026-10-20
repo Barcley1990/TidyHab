@@ -1,5 +1,9 @@
 # Projektvorgaben
 
+## Verbindliche Technologieentscheidung
+
+- Bei Implementierung und Technologieauswahl die Entscheidung in [ADR-0001](docs/adr/0001-typescript-web-app.md) anwenden.
+
 ## Zielplattform und Architektur
 
 - Alle in diesem Projekt entwickelten Anwendungen müssen als Web-App mit einem eigenen Webserver umgesetzt werden.
